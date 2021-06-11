@@ -9,11 +9,11 @@
 ### Dataset
 
 * The dataset consist of roughly 5000 images of wild animals
-* unlabeled -> unsupervised learning
+* The dataset is unlabeled -> unsupervised learning
 
 ### Aproach
 
-* used ImageDataGenerator to generate data with a target size of 128x128
+* Used ImageDataGenerator to generate data with a target size of 128x128
 * Used VGG16 and Auto-Encoders for feature extraction (Refer only the auto encoder part, which gives good results, the VGG16 does not produce good results)
 * Tried visualising the extracted feature using PCA and t-SNE
 * Used K-means algorithm to cluster the features into groups.
